@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon 01-basic/file.js"
   },
   "type": "module",
   "keywords": [],
@@ -13,5 +13,8 @@
   "devDependencies": {
     "nodemon": "^2.0.20",
     "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security"
   }
 }
