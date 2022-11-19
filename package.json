@@ -1,20 +1,24 @@
 {
   "name": "nodebasic",
   "version": "1.0.0",
-  "description": "",
+  "description": "노드 공부한 내용을 기록하는 저장소",
+  "author": "rovxxmjxx",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon 01-basic/file.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module",
-  "keywords": [],
-  "author": "roxxmjxx",
-  "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^2.0.20",
-    "prettier": "^2.7.1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rovxxmjxx/nodebasic.git"
   },
+  "keywords": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rovxxmjxx/nodebasic/issues"
+  },
+  "homepage": "https://github.com/rovxxmjxx/nodebasic#readme",
   "dependencies": {
-    "fs": "^0.0.1-security"
+    "ini": "^3.0.1"
   }
 }
